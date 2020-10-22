@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>auto mpg prediction</title>
+        <link rel="shortcut icon" href="{{ url_for('static', filename='diabetes-favicon.ico') }}">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+        <script src="https://kit.fontawesome.com/5f3f547070.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <!-- Website Title -->
+    	<div class="container">
+            <h2 class='container-heading'><span class="heading_font">Fuel Efficiency Of Vehicle during 70's & 80's</span></h2>
+            <div class='description'>
+    			<p>A Machine Learning Web App, Built with Flask, Deployed using Heroku.</p>
+    		</div>
+    	</div>
+
+        <!-- Text Area -->
+    	<div class="ml-container">
+    		<form action="{{ url_for('predict') }}" method="POST">
+                <input class="form-input" type="text" name="Cylinders" placeholder="Number of Cylinders eg. 4"><br>
+                <input class="form-input" type="text" name="Displacement" placeholder="Displacement eg. 155.0"><br>
+                <input class="form-input" type="text" name="Horsepower" placeholder="Horsepower of vehicle eg. 130.0"><br>
+                <input class="form-input" type="text" name="Weight" placeholder="weight of vehicle (kg) eg. 2500"><br>
+                <input class="form-input" type="text" name="Acceleration" placeholder="Acceleration (km/h) eg. 80"><br>
+                <input class="form-input" type="text" name="Model_Year" placeholder="Model year, only last 2 digits eg. 78"><br>
+                <input class="form-input" type="text" name="Origin" placeholder="Any of 1, 2, or 3. 1:India, 2:USA, 3:Germany"><br>
+
+        		<input type="submit" class="my-cta-button" value="Predict">
+        	</form>
+    	</div>
+
+        <!-- Footer -->
+       <div class='footer'>
+           <div class="contact">
+               <a target="_blank" href="https://github.com/porky5191/auto_mpg_prediction"><i class="fab fa-github fa-lg contact-icon"></i></a>
+               <a target="_blank" href="https://www.linkedin.com/in/arun-kumar-nath-686721152/"><i class="fab fa-linkedin fa-lg contact-icon"></i></a>
+           </div>
+           <p class='footer-description'>Made by Arun Kumar Nath.</p>
+       </div>
+
+    </body>
+</html>
