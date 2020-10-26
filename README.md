@@ -1,5 +1,5 @@
 # auto_mpg_prediction
-This is a End-To-End Projects on Auto Mpg Prediction.
+This is a End-To-End Projects to predict Fuel Efficiency of a Vehicle of the era of 70's and 80's.
 
 # Steps
 1. Dataset: data is collected from UCI ML Repository using url- http://archive.ics.uci.edu/ml/machine-learning-databases/auto-mpg/auto-mpg.data
