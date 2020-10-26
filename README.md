@@ -38,4 +38,4 @@ This is a End-To-End Projects on Auto Mpg Prediction.
   - Test the endpoint using requests package.
   
 
-![alt text](https://github.com/porky5191/auto_mpg_prediction/tree/main/readme_resource/s1.png?raw=true)
+![Screenshot](/readme_resource/s1.png)
