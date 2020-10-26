@@ -16,12 +16,25 @@ This is a End-To-End Projects on Auto Mpg Prediction.
   - Attribute Addition -> Adding custom transformation (acceleration on power & acceleration on cylinder)
   - Setting up Data Transformation Pipeline for numerical and categorical column.
 3. Selection and Training Models
-  - Select and Train a few Algorithm (Linear Regression, Decision Tree, Random Forest)
+  - Select and Train a few Algorithm (Linear Regression, Decision Tree, Random Forest, SVM regressor)
   - Evaluate using Mean Squared Error
   - Model Evaluation using Cross Validation
   - Hyperparameter Tuning using GridSearchCV
   - Evaluate the Final System on test data
   - Saving the Model
- 4. 
+ 4. Deploying Trained Model
+  - Start a Flask Project.
+  - Set up a dedicated environment with dependencies installed using pip.
+    Packages to install:
+    -pandas
+    -numpy
+    -sklean
+    -flask
+    -matplotlib
+    -gunicorn
+    -seaborn
+  - Create a quick flask application to test a simple endpoint.
+  - Define a function to that accepts data from the POST request and return the prediction using a helper module.
+  - Test the endpoint using requests package.
   
 
