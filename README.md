@@ -39,5 +39,9 @@ This is a End-To-End Projects on Auto Mpg Prediction.
   
 
 ![Screenshot](/readme_resource/s1.png)
+
+
+
+
 ![Screenshot](/readme_resource/s2.png)
 
